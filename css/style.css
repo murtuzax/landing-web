@@ -228,3 +228,17 @@
             color: #c6bbaa;
             font-size: 12.5px;
         }
+
+        @media (max-width:768px) {
+            .links {
+                display: none;
+            }
+            .main {
+                display: flex;
+                flex-direction: column;
+                gap: 60px;
+            }
+            .idea-cards {
+                flex-direction: column;
+            }
+        }
